@@ -1,0 +1,5 @@
+kitchen:whatsapp_image_2026-02-12_at_15.51.39_3.webp
+wardrobe:whatsapp_image_2026-02-12_at_15.48.56_1.webp
+bedroom:whatsapp_image_2026-02-12_at_15.51.39_23.webp
+hallway:img_7628.webp
+kids:whatsapp_image_2026-02-12_at_15.48.55.webp
