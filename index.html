@@ -126,72 +126,89 @@
         </div>
     </section>
 
-    <!-- CATALOG -->
+    <!-- БЛОК 3: Каталог (Обновленный) -->
     <section id="catalog" class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-extrabold text-dark mb-4">Популярные категории</h2>
-                <p class="text-gray-500 max-w-xl mx-auto">Вся мебель уже на складе в Алматы.</p>
+                <p class="text-gray-500 max-w-xl mx-auto">Нажмите на категорию, чтобы посмотреть примеры работ</p>
             </div>
+
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Карточки -->
-                <a href="https://wa.me/77757029298?text=Интересуют%20шкафы" class="whatsapp-card group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300">
+                <!-- Шкафы -->
+                <div onclick="openGallery('shkafy')" class="group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 cursor-pointer">
                     <img src="img/шкаф/WhatsApp Image 2026-02-12 at 15.48.56 (7).jpeg" alt="Шкафы" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-6 w-full">
                         <div class="bg-brand text-white text-xs font-bold px-2 py-1 rounded inline-block mb-2">В НАЛИЧИИ</div>
-                        <div class="flex justify-between items-end"><h3 class="text-2xl font-bold text-white">Шкафы</h3><div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition"><i class="ph-bold ph-arrow-right"></i></div></div>
+                        <div class="flex justify-between items-end">
+                            <h3 class="text-2xl font-bold text-white">Шкафы</h3>
+                            <div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition">
+                                <i class="ph-bold ph-eye text-xl"></i>
+                            </div>
+                        </div>
                     </div>
-                </a>
-                
-                <a href="https://wa.me/77757029298?text=Интересуют%20кухни" class="whatsapp-card group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300">
+                </div>
+
+                <!-- Кухни -->
+                <div onclick="openGallery('kuhni')" class="group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 cursor-pointer">
                     <img src="img/кухни/WhatsApp Image 2026-02-12 at 15.56.31 (3).jpeg" alt="Кухни" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-6 w-full">
                         <div class="bg-brand text-white text-xs font-bold px-2 py-1 rounded inline-block mb-2">В НАЛИЧИИ</div>
-                        <div class="flex justify-between items-end"><h3 class="text-2xl font-bold text-white">Кухни</h3><div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition"><i class="ph-bold ph-arrow-right"></i></div></div>
+                        <div class="flex justify-between items-end">
+                            <h3 class="text-2xl font-bold text-white">Кухни</h3>
+                            <div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition">
+                                <i class="ph-bold ph-eye text-xl"></i>
+                            </div>
+                        </div>
                     </div>
-                </a>
+                </div>
 
-                <a href="https://wa.me/77757029298?text=Интересуют%20спальни" class="whatsapp-card group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300">
+                <!-- Спальни -->
+                <div onclick="openGallery('spalni')" class="group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 cursor-pointer">
                     <img src="img/спальня/WhatsApp Image 2026-02-12 at 15.44.44 (1).jpeg" alt="Спальни" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-6 w-full">
                         <div class="bg-brand text-white text-xs font-bold px-2 py-1 rounded inline-block mb-2">В НАЛИЧИИ</div>
-                        <div class="flex justify-between items-end"><h3 class="text-2xl font-bold text-white">Спальни</h3><div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition"><i class="ph-bold ph-arrow-right"></i></div></div>
+                        <div class="flex justify-between items-end">
+                            <h3 class="text-2xl font-bold text-white">Спальни</h3>
+                            <div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition">
+                                <i class="ph-bold ph-eye text-xl"></i>
+                            </div>
+                        </div>
                     </div>
-                </a>
-
-                <a href="https://wa.me/77757029298?text=Интересуют%20прихожие" class="whatsapp-card group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300">
+                </div>
+                
+                <!-- Прихожие -->
+                <div onclick="openGallery('prikhozhie')" class="group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 cursor-pointer">
                     <img src="img/Прихожие/WhatsApp Image 2026-02-12 at 15.51.39 (17).jpeg" alt="Прихожие" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-6 w-full">
                         <div class="bg-brand text-white text-xs font-bold px-2 py-1 rounded inline-block mb-2">В НАЛИЧИИ</div>
-                        <div class="flex justify-between items-end"><h3 class="text-2xl font-bold text-white">Прихожие</h3><div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition"><i class="ph-bold ph-arrow-right"></i></div></div>
+                        <div class="flex justify-between items-end">
+                            <h3 class="text-2xl font-bold text-white">Прихожие</h3>
+                            <div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition">
+                                <i class="ph-bold ph-eye text-xl"></i>
+                            </div>
+                        </div>
                     </div>
-                </a>
+                </div>
 
-                <a href="https://wa.me/77757029298?text=Интересует%20детская" class="whatsapp-card group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300">
-                    <img src="./img/детские/WhatsApp Image 2026-02-12 at 15.51.39 (11).jpeg" alt="Детские" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                <!-- Детские -->
+                <div onclick="openGallery('detskie')" class="group relative block h-64 sm:h-80 rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 cursor-pointer">
+                    <img src="img/детские/WhatsApp Image 2026-02-12 at 15.51.39 (11).jpeg" alt="Детские" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-6 w-full">
                         <div class="bg-brand text-white text-xs font-bold px-2 py-1 rounded inline-block mb-2">В НАЛИЧИИ</div>
-                        <div class="flex justify-between items-end"><h3 class="text-2xl font-bold text-white">Детские</h3><div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition"><i class="ph-bold ph-arrow-right"></i></div></div>
+                        <div class="flex justify-between items-end">
+                            <h3 class="text-2xl font-bold text-white">Детские</h3>
+                            <div class="w-10 h-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white group-hover:bg-brand transition">
+                                <i class="ph-bold ph-eye text-xl"></i>
+                            </div>
+                        </div>
                     </div>
-                </a>
-
-                <a href="https://wa.me/77757029298?text=Весь%20каталог" class="whatsapp-card group relative flex flex-col items-center justify-center h-64 sm:h-80 rounded-2xl border-2 border-dashed border-gray-300 hover:border-brand hover:bg-white transition-all cursor-pointer">
-                    <div class="w-16 h-16 bg-brand/10 text-brand rounded-full flex items-center justify-center mb-4 text-2xl"><i class="ph-fill ph-dots-three-outline"></i></div>
-                    <h3 class="text-xl font-bold text-dark">Смотреть всё</h3>
-                    <p class="text-sm text-gray-500 mt-2">Перейти в WhatsApp</p>
-                </a>
-            </div>
-            
-            <div class="mt-12 text-center">
-                <a href="https://wa.me/77757029298" class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full shadow-lg shadow-green-500/30 transition transform hover:scale-105 whatsapp-btn">
-                    <i class="ph-fill ph-whatsapp-logo text-2xl"></i>
-                    <span>Получить каталог с ценами</span>
-                </a>
+                </div>
             </div>
         </div>
     </section>
@@ -419,6 +436,148 @@
                 const header = document.getElementById('navbar');
                 window.scrollY > 50 ? header.classList.add('shadow-md') : header.classList.remove('shadow-md');
             });
+        });
+    </script>
+
+    <!-- ГАЛЕРЕЯ (MODAL) -->
+    <div id="gallery-modal" class="fixed inset-0 z-[100] hidden bg-black/95 backdrop-blur-sm flex flex-col items-center justify-center p-4">
+        <!-- Кнопка закрытия -->
+        <button onclick="closeGallery()" class="absolute top-6 right-6 text-white text-4xl hover:text-brand transition z-[110]">
+            <i class="ph ph-x"></i>
+        </button>
+
+        <!-- Основной контент галереи -->
+        <div class="relative w-full max-w-5xl flex items-center justify-center">
+            <!-- Кнопки навигации -->
+            <button onclick="prevImage()" class="absolute left-0 md:-left-16 text-white text-5xl hover:text-brand transition p-2">
+                <i class="ph ph-caret-left"></i>
+            </button>
+
+            <div class="w-full flex flex-col items-center">
+                <img id="gallery-img" src="" alt="Furniture" class="max-h-[70vh] w-auto rounded-lg shadow-2xl object-contain animate-fade-in">
+                <p id="gallery-counter" class="text-gray-400 mt-4 font-medium tracking-widest text-sm"></p>
+                
+                <!-- Кнопка действия внутри галереи -->
+                <a id="gallery-wa-btn" href="" target="_blank" class="mt-8 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-10 rounded-full flex items-center gap-3 shadow-lg transition transform hover:scale-105">
+                    <i class="ph-fill ph-whatsapp-logo text-2xl"></i>
+                    <span>Заказать такую же</span>
+                </a>
+            </div>
+
+            <button onclick="nextImage()" class="absolute right-0 md:-right-16 text-white text-5xl hover:text-brand transition p-2">
+                <i class="ph ph-caret-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <style>
+        @keyframes fade-in {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        .animate-fade-in { animation: fade-in 0.3s ease-out; }
+    </style>
+
+    <script>
+        // --- ДАННЫЕ ГАЛЕРЕИ ---
+        const galleryData = {
+            shkafy: [
+                'img/шкаф/WhatsApp Image 2026-02-12 at 15.48.56 (3).jpeg',
+                'img/шкаф/WhatsApp Image 2026-02-12 at 15.48.56 (7).jpeg',
+                'img/шкаф/WhatsApp Image 2026-02-12 at 15.56.31 (5).jpeg',
+                'img/шкаф/WhatsApp Image 2026-02-12 at 15.56.31 (7).jpeg'
+            ],
+            kuhni: [
+                'img/кухни/WhatsApp Image 2026-02-12 at 15.56.30 (1).jpeg',
+                'img/кухни/WhatsApp Image 2026-02-12 at 15.56.30 (2).jpeg',
+                'img/кухни/WhatsApp Image 2026-02-12 at 15.56.30.jpeg',
+                'img/кухни/WhatsApp Image 2026-02-12 at 15.56.31 (1).jpeg',
+                'img/кухни/WhatsApp Image 2026-02-12 at 15.56.31 (2).jpeg',
+                'img/кухни/WhatsApp Image 2026-02-12 at 15.56.31 (3).jpeg',
+                'img/кухни/WhatsApp Image 2026-02-12 at 15.57.44.jpeg'
+            ],
+            spalni: [
+                'img/спальня/WhatsApp Image 2026-02-12 at 15.44.44 (1).jpeg',
+                'img/спальня/WhatsApp Image 2026-02-12 at 15.48.56 (10).jpeg',
+                'img/спальня/WhatsApp Image 2026-02-12 at 15.48.56 (8).jpeg',
+                'img/спальня/WhatsApp Image 2026-02-12 at 15.51.39 (21).jpeg',
+                'img/спальня/WhatsApp Image 2026-02-12 at 15.51.39 (3).jpeg'
+            ],
+            prikhozhie: [
+                'img/Прихожие/WhatsApp Image 2026-02-12 at 15.51.39 (17).jpeg',
+                'img/Прихожие/WhatsApp Image 2026-02-12 at 15.56.31 (8).jpeg',
+                'img/Прихожие/WhatsApp Image 2026-02-12 at 15.56.31 (9).jpeg',
+                'img/Прихожие/WhatsApp Image 2026-02-14 at 12.06.07.jpeg',
+                'img/Прихожие/WhatsApp Image 2026-02-14 at 12.09.36.jpeg'
+            ],
+            detskie: [
+                'img/детские/WhatsApp Image 2026-02-12 at 15.51.39 (11).jpeg',
+                'img/детские/WhatsApp Image 2026-02-14 at 12.06.07.jpeg',
+                'img/детские/WhatsApp Image 2026-02-14 at 12.10.57.jpeg',
+                'img/детские/WhatsApp Image 2026-02-14 at 12.11.17.jpeg'
+            ]
+        };
+
+        let currentCategory = '';
+        let currentIndex = 0;
+
+        const modal = document.getElementById('gallery-modal');
+        const galleryImg = document.getElementById('gallery-img');
+        const counter = document.getElementById('gallery-counter');
+        const waBtn = document.getElementById('gallery-wa-btn');
+
+        function openGallery(category) {
+            if (!galleryData[category] || galleryData[category].length === 0) return;
+            currentCategory = category;
+            currentIndex = 0;
+            updateGallery();
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Запретить скролл сайта
+
+            // АНАЛИТИКА: Отправляем событие в Яндекс.Метрику
+            sendEvent('open_gallery_' + category);
+        }
+
+        function updateGallery() {
+            const images = galleryData[currentCategory];
+            galleryImg.src = images[currentIndex];
+            counter.innerText = `${currentIndex + 1} / ${images.length}`;
+            
+            // Обновляем ссылку WhatsApp с названием категории
+            const text = encodeURIComponent(`Здравствуйте! Меня заинтересовала мебель из категории: ${currentCategory}.`);
+            waBtn.href = `https://wa.me/77757029298?text=${text}`;
+        }
+
+        function nextImage() {
+            const images = galleryData[currentCategory];
+            currentIndex = (currentIndex + 1) % images.length;
+            updateGallery();
+        }
+
+        function prevImage() {
+            const images = galleryData[currentCategory];
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateGallery();
+        }
+
+        function closeGallery() {
+            modal.classList.add('hidden');
+            document.body.style.overflow = ''; // Вернуть скролл
+        }
+
+        // Закрытие по клику на фон
+        if (modal) {
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) closeGallery();
+            });
+        }
+
+        // Навигация кнопками клавиатуры
+        document.addEventListener('keydown', (e) => {
+            if (!modal || modal.classList.contains('hidden')) return;
+            if (e.key === 'ArrowRight') nextImage();
+            if (e.key === 'ArrowLeft') prevImage();
+            if (e.key === 'Escape') closeGallery();
         });
     </script>
 </body>
