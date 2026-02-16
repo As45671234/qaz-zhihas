@@ -209,7 +209,101 @@
             </div>
         </div>
     </section>
+    <!-- БЛОК: ОТЗЫВЫ -->
+    <section id="reviews" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-dark mb-4">Что говорят наши клиенты</h2>
+                <p class="text-gray-500 max-w-xl mx-auto">Мы дорожим своей репутацией. Вот реальные отзывы из нашей переписки в WhatsApp.</p>
+            </div>
 
+            <!-- ТЕКСТОВЫЕ ОТЗЫВЫ (из WhatsApp переписок) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+                
+                <!-- Отзыв 1 (Про спальню) -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 relative shadow-sm hover:shadow-md transition">
+                    <div class="flex text-brand mb-4">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">
+                        "Сәлеметсіз бе! Үлкен рахмет, жиһаз өте керемет шықты. Бізге қатты ұнады. Саудаңыздың жемісін көріңіз!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-brand/10 text-brand rounded-full flex items-center justify-center font-bold">А</div>
+                        <div>
+                            <p class="font-bold text-sm">Клиент (Алматы)</p>
+                            <p class="text-[10px] text-gray-400 uppercase tracking-widest leading-none">Заказ: Спальный гарнитур</p>
+                        </div>
+                    </div>
+                    <i class="ph-fill ph-quotes absolute top-6 right-8 text-4xl text-brand/10"></i>
+                </div>
+
+                <!-- Отзыв 2 (Про шкаф) -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 relative shadow-sm hover:shadow-md transition">
+                    <div class="flex text-brand mb-4">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">
+                        "Добрый вечер! Кстати, шкаф хороший, прямо очень понравился. Спасибо большое за качество и сборку!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-brand/10 text-brand rounded-full flex items-center justify-center font-bold">К</div>
+                        <div>
+                            <p class="font-bold text-sm">Клиент</p>
+                            <p class="text-[10px] text-gray-400 uppercase tracking-widest leading-none">Заказ: Шкаф-купе</p>
+                        </div>
+                    </div>
+                    <i class="ph-fill ph-quotes absolute top-6 right-8 text-4xl text-brand/10"></i>
+                </div>
+
+                <!-- Отзыв 3 (Про кухню/общий) -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 relative shadow-sm hover:shadow-md transition">
+                    <div class="flex text-brand mb-4">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">
+                        "Рахмет сізге! Бәрі жақсы болды, тамаша, әдемі. 1 күнде бәрін бітіріп бердіңіздер. Жұмыстарыңызға береке берсін!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-brand/10 text-brand rounded-full flex items-center justify-center font-bold">М</div>
+                        <div>
+                            <p class="font-bold text-sm">Клиент</p>
+                            <p class="text-[10px] text-gray-400 uppercase tracking-widest leading-none">Заказ: Кухонный гарнитур</p>
+                        </div>
+                    </div>
+                    <i class="ph-fill ph-quotes absolute top-6 right-8 text-4xl text-brand/10"></i>
+                </div>
+            </div>
+
+            <!-- ВИДЕО ОТЗЫВЫ (9:16) -->
+            <div class="text-center mb-10">
+                <h3 class="text-2xl font-extrabold text-dark">Видео-обзоры от клиентов</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Видео 1 -->
+                <div class="relative aspect-[9/16] bg-dark rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-dark ring-1 ring-gray-200">
+                    <video class="w-full h-full object-cover" preload="metadata" playsinline controls poster="./img/video-poster-1.jpg">
+                        <source src="./video/1.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <!-- Видео 2 -->
+                <div class="relative aspect-[9/16] bg-dark rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-dark ring-1 ring-gray-200">
+                    <video class="w-full h-full object-cover" preload="metadata" playsinline controls poster="./img/video-poster-2.jpg">
+                        <source src="./video/2.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <!-- Видео 3 -->
+                <div class="relative aspect-[9/16] bg-dark rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-dark ring-1 ring-gray-200">
+                    <video class="w-full h-full object-cover" preload="metadata" playsinline controls poster="./img/video-poster-3.jpg">
+                        <source src="./video/3.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- WAREHOUSE -->
     <section id="warehouse" class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
